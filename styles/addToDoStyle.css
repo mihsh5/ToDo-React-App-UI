@@ -1,0 +1,15 @@
+.toDoInput {
+  border: none;
+  margin: 10px auto;
+  font-size: 2rem;
+  font-weight: 200;
+  text-align: center;
+  border-bottom: 0.01rem solid gray;
+  transition: all 0.2s ease;
+}
+
+.toDoInput:focus {
+  border-bottom-color: black;
+  outline: none;
+  font-weight: 400;
+}

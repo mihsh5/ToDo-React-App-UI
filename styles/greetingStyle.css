@@ -1,0 +1,78 @@
+.greetingsContainer {
+  font-weight: 200;
+  margin: 25px auto;
+  width: max-content;
+}
+.username {
+  font-size: 2rem;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.greetings {
+  font-size: 1.5rem;
+  font-weight: 300;
+  display: block;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.toDoContainer {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  max-width: 70%;
+  margin: 50px auto;
+  border: 0.5px solid black;
+  border-radius: 5px;
+}
+
+.toDoItemContainer {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+  border-radius: 5px;
+}
+
+.toDoItemContainer:last-child {
+  border-bottom: 0px;
+}
+
+.toDoItemContainer input {
+  margin: 10px;
+}
+
+.toDoItemContainer span {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex: 1;
+  border-left: 1px solid #d1e2ff;
+  border-right: 1px solid #d1e2ff;
+  word-wrap: break-word;
+  overflow: auto;
+}
+
+.toDoItemContainer button {
+  margin: 10px;
+  border: none;
+  transition: all 0.25s;
+  color: gray;
+}
+
+.toDoItemContainer button:hover {
+  color: black;
+  transform: scale(1.5);
+}
+
+.toDoItemDone {
+  background-color: #f9f9f9;
+  text-decoration: line-through;
+  color: #696969;
+}

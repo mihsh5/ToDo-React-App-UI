@@ -1,0 +1,35 @@
+.logInContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: max-content;
+  margin: 100px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.userInput {
+  border: none;
+  margin: 10px;
+  font-size: 2rem;
+  font-weight: 200;
+  text-align: center;
+  border-bottom: 0.01rem solid gray;
+  flex: 1;
+  max-height: max-content;
+}
+.userInput:focus {
+  border-bottom-color: black;
+  outline: none;
+}
+.logInButton {
+  margin: 10px;
+  font-size: 1.5rem;
+  max-width: max-content;
+  font-weight: 400;
+  background-color: #3897f0;
+  border-radius: 5px;
+  color: white;
+}
+.logInButton:focus {
+  outline: none;
+}
